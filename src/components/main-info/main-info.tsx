@@ -7,7 +7,7 @@ import { BsTelephonePlus } from "react-icons/bs";
 
 export default function MainInfo() {
     const iconTextData = [
-        { icon:  <SlLocationPin />, text1: "см. Козова", text2: "вулиця Михайла Грушевського, 4" },
+        { icon:  <SlLocationPin />, text1: "смт. Козова", text2: "вулиця Михайла Грушевського, 4" },
         { icon: <FaRegClock />, text1: "пн, ср, пт з 10:00 - 16:00", text2: "інші дні вихідні" },
         { icon: <BsTelephonePlus />, text1: "Телефон", text2: "+38(096)25-48-744" },
       ];

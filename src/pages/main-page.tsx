@@ -17,8 +17,8 @@ export default function MainPage() {
                         <p>Чоловічі та жіночі стрижки</p>
                     </div>
                     <div className="text-white">
-                        <p className='text-[16px] lg:text-[22px]'>см. Козова, вулиця Михайла Грушевського, 4</p>
-                        <p className='text-[16px] lg:text-[30px] font-bold'>+38(096)25-48-744</p>
+                        <p className='text-[16px] lg:text-[22px]'>смт. Козова, вулиця Михайла Грушевського, 4</p>
+                        <a  className='text-[16px] lg:text-[30px] font-bold' href="tel:+380962548744">+38(096)25-48-744</a>
                     </div>
                 </div>
 
