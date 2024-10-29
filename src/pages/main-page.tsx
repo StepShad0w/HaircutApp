@@ -5,12 +5,14 @@ import MainInfo from '../components/main-info/main-info';
 import Services from '../components/services/services';
 import Footer from '../components/footer/footer';
 import MapComponent from '../components/map-content/map-content';
+import SliderComponent from '../components/swiper/swiper';
+import { Fone1 } from '../images';
 export default function MainPage() {
   return (
-    <div className=''>
+    <div className='overflow-x-hidden'>
         {/* <img className='image-fone' src={myImage}></img> */}
                 <Header/>
-        <div className="image-fone">
+        {/* <div className="image-fone">
             <div className="image-opacity">
                 <div className="flex flex-col h-[100%] justify-center">
                     <div className="text-white text-[38px] lg:text-[68px]">
@@ -23,7 +25,11 @@ export default function MainPage() {
                 </div>
 
             </div>
-        </div>
+        </div> */}
+         <div className="image-opacity">
+
+        <SliderComponent/>
+         </div>
         <div  data-aos="fade-up" className="d">
 
                 <MainInfo   />

@@ -31,13 +31,13 @@
 .App-link {
   color: #61dafb;
 } */
-.image-fone{
+/* .image-fone{
   background-image: url('./images/phone.jpg');
   height: 100vh;
   background-size: cover;
   background-repeat:no-repeat ;
   background-position:center ;
-}
+} */
 .image-opacity{
   background: rgba(0, 0, 0, 0.5);
   height: 100vh;

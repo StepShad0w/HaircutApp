@@ -9,7 +9,7 @@ export default function Header() {
         setOpen(!open)
     }
   return (
-   <div className="p-8 absolute w-[100%]">
+   <div className="p-8 absolute z-10 w-[100%]">
         <div className=" hidden md:flex justify-center gap-4 text-white text-[20px] font-bold">
             <a href="#services">Послуги</a>
             <a href="#photos">Фотографії</a>
@@ -17,7 +17,7 @@ export default function Header() {
             <a href="#contacts">Контакти</a>
             
         </div>
-        <div className="relative z-10">
+        <div className="block md:hidden relative z-10">
             {!open ?
         <FaBars onClick={handleOpenModal} className='text-white text-[40px]' />
         :
