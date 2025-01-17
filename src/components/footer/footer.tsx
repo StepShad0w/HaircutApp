@@ -9,7 +9,7 @@ export default function Footer() {
                 <a href="tel:+380962548744">+38(096)25-48-744</a>
             </div>
             <div className="text-[22px] lg:text-[32px] font-bold">
-                <p>смт. Козова, вулиця Михайла Грушевського, 4</p>
+                <p>смт. Козова, вулиця Михайла Грушевського, 12</p>
             </div>
             <div className="max-w-[370px] lg:max-w-[1200px]">
                 <p>

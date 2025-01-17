@@ -11,10 +11,10 @@ export default function Header() {
   return (
    <div className="p-8 absolute z-10 w-[100%]">
         <div className=" hidden md:flex justify-center gap-4 text-white text-[20px] font-bold">
-            <a href="#services">Послуги</a>
-            <a href="#photos">Фотографії</a>
-            <a href="#location">Локація</a>
-            <a href="#contacts">Контакти</a>
+            <a className='hover:text-gray-300' href="#services">Послуги</a>
+            <a className='hover:text-gray-300' href="#photos">Фотографії</a>
+            <a className='hover:text-gray-300' href="#location">Локація</a>
+            <a className='hover:text-gray-300' href="#contacts">Контакти</a>
             
         </div>
         <div className="block md:hidden relative z-10">

@@ -14,6 +14,8 @@ const SliderComponent = () => {
         infinite: true,
         speed: 500,
         fade: true,
+        pauseOnHover:false,
+        
     };
 
     return (
@@ -29,10 +31,10 @@ const SliderComponent = () => {
                         />
                     <div className="text-white absolute flex-col inset-0 flex justify-center items-center bg-black bg-opacity-50">
                     <div className="text-white text-[38px] lg:text-[68px]">
-                        <p>Чоловічі та жіночі стрижки</p>
+                        <p >Чоловічі та жіночі стрижки</p>
                     </div>
                     <div className="text-white">
-                        <p className='text-[16px] lg:text-[22px]'>смт. Козова, вулиця Михайла Грушевського, 4</p>
+                        <p className='text-[16px] lg:text-[22px]'>смт. Козова, вулиця Михайла Грушевського, 12</p>
                         <a  className='text-[16px] lg:text-[30px] font-bold' href="tel:+380962548744">+38(096)25-48-744</a>
                     </div>
                     </div>

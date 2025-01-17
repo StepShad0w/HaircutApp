@@ -8,7 +8,7 @@ interface IconTextProps {
 
 const IconText: React.FC<IconTextProps> = ({ icon, text1, text2 }) => {
   return (
-    <div className="flex flex-col items-center text-center border-b-2 p-4">
+    <div className="flex flex-col items-center text-center min-h-[100px] md:min-h-[200px] border-b-2 border-orange-400 max-w-[300px] p-4">
       <div className="text-3xl lg:text-6xl mb-4">{icon}</div> 
       <p className="text-lg text-gray-600 ">{text1}</p> 
       <p className="text-lg text-gray-600">{text2}</p>
