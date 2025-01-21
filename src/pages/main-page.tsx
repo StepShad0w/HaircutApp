@@ -9,125 +9,8 @@ import SliderComponent from '../components/swiper/swiper';
 import { Fone1 } from '../images';
 import PictureSection from '../components/picture-section/picture-section';
 import ImageSection from '../components/image-section/image-section';
-export const mapStyles = [
-    {
-        "featureType": "administrative",
-        "elementType": "all",
-        "stylers": [
-            {
-                "visibility": "off"
-            }
-        ]
-    },
-    {
-        "featureType": "landscape",
-        "elementType": "all",
-        "stylers": [
-            {
-                "visibility": "simplified"
-            },
-            {
-                "hue": "#0066ff"
-            },
-            {
-                "saturation": 74
-            },
-            {
-                "lightness": 100
-            }
-        ]
-    },
-    {
-        "featureType": "poi",
-        "elementType": "all",
-        "stylers": [
-            {
-                "visibility": "simplified"
-            }
-        ]
-    },
-    {
-        "featureType": "road",
-        "elementType": "all",
-        "stylers": [
-            {
-                "visibility": "simplified"
-            }
-        ]
-    },
-    {
-        "featureType": "road.highway",
-        "elementType": "all",
-        "stylers": [
-            {
-                "visibility": "off"
-            },
-            {
-                "weight": 0.6
-            },
-            {
-                "saturation": -85
-            },
-            {
-                "lightness": 61
-            }
-        ]
-    },
-    {
-        "featureType": "road.highway",
-        "elementType": "geometry",
-        "stylers": [
-            {
-                "visibility": "on"
-            }
-        ]
-    },
-    {
-        "featureType": "road.arterial",
-        "elementType": "all",
-        "stylers": [
-            {
-                "visibility": "off"
-            }
-        ]
-    },
-    {
-        "featureType": "road.local",
-        "elementType": "all",
-        "stylers": [
-            {
-                "visibility": "on"
-            }
-        ]
-    },
-    {
-        "featureType": "transit",
-        "elementType": "all",
-        "stylers": [
-            {
-                "visibility": "simplified"
-            }
-        ]
-    },
-    {
-        "featureType": "water",
-        "elementType": "all",
-        "stylers": [
-            {
-                "visibility": "simplified"
-            },
-            {
-                "color": "#5f94ff"
-            },
-            {
-                "lightness": 26
-            },
-            {
-                "gamma": 5.86
-            }
-        ]
-    }
-]
+import { mapStyles } from './constants';
+
 export default function MainPage() {
   return (
     <div className='overflow-x-hidden'>
@@ -156,9 +39,12 @@ export default function MainPage() {
       <div id='services' data-aos='fade-up' className='pt-20'>
         <Services />
       </div>
+      <div id='photos' className="d">
+
       <PictureSection></PictureSection>
       <ImageSection/>
-      <div id='location' data-aos='zoom-in'  className='pt-20 h-[400px] '>
+      </div>
+      <div id='location' data-aos='zoom-in'  className='pt-20 -mt-20 h-[500px] '>
         <MapComponent mapStyles={mapStyles}  />
       </div>
       <div id='contacts' className='d'>

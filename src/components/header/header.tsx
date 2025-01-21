@@ -12,7 +12,7 @@ export default function Header() {
    <div className="p-8 absolute z-10 w-[100%]">
         <div className=" hidden md:flex justify-center gap-4 text-white text-[20px] font-bold">
             <a className='hover:text-gray-300' href="#services">Послуги</a>
-            <a className='hover:text-gray-300' href="#photos">Фотографії</a>
+            <a className='hover:text-gray-300' href="#work">Фотографії</a>
             <a className='hover:text-gray-300' href="#location">Локація</a>
             <a className='hover:text-gray-300' href="#contacts">Контакти</a>
             
