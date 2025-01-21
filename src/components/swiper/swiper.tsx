@@ -2,7 +2,7 @@ import React from 'react';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
-import { Fone1, Fone2, Fone3, Fone4 } from '../../images'; // Adjust import based on your index.ts file setup
+import { Fone1, Fone2, Fone3, Fone4 } from '../../images'; 
 
 const images = [Fone1,Fone2,Fone3,Fone4];
 

@@ -13,9 +13,9 @@ export default function MainInfo() {
       ];
   return (
     <div className=" p-10 bg-orange-100">
-        <div className="p-6 flex  items-center h-[100%] flex-col md:flex-row gap-8 lg:justify-evenly">
+        <div className="p-6 flex  items-center h-[100%] lg:max-w-[1400px] lg:mx-auto gap-6 flex-col md:flex-row lg:justify-evenly">
       {iconTextData.map((item, index) => (
-        <div className="md:w-1/3 w-[300px]">
+        <div className="md:w-1/3 md:flex md:justify-center w-[300px]">
 
         <IconText
           key={index} 
