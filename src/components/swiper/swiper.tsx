@@ -26,6 +26,7 @@ const SliderComponent = () => {
                 <div key={index} className="h-screen w-100% bg-cover bg-center">
                     <img
                         src={img}
+                        loading='lazy'
                         alt={`Slide ${index + 1}`}
                         className="w-full h-full object-cover"
                         />
