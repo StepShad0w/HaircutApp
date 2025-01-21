@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import PriceCard from "./price-card/price-card";
 import Crop from "../../images/ss.jpg";
 import { Canadka, Fade, Pokraska, SidePart, Ukladka, Undercut, Wedding } from '../../images';
@@ -16,28 +16,28 @@ export default function Services() {
       text1: "60 хв",
       text2: "Стрижка ножицями та машинкою. Миття голови та укладання волосся",
       text3: "Чоловіча стрижка - Fade",
-      price: "300₴",
+      price: "250₴",
       image: Fade,
     },
     {
       text1: "60 хв",
       text2: "Стрижка ножицями та машинкою. Миття голови та укладання волосся",
       text3: "Чоловіча стрижка - Канадка",
-      price: "300₴",
+      price: "250₴",
       image: Canadka,
     },
     {
       text1: "60 хв",
       text2: "Стрижка ножицями та машинкою. Миття голови та укладання волосся",
       text3: "Чоловіча стрижка - Side Part",
-      price: "300₴",
+      price: "250₴",
       image: SidePart,
     },
     {
       text1: "60 хв",
       text2: "Стрижка ножицями та машинкою. Миття голови та укладання волосся",
       text3: "Чоловіча стрижка - Undercut",
-      price: "300₴",
+      price: "250₴",
       image: Undercut,
     },
   ];
@@ -61,14 +61,14 @@ export default function Services() {
       text1: "60-80 хв",
       text2: "Тонування волосся. Включає стрижку, миття та укладку.",
       text3: "Тонування",
-      price: "500₴",
+      price: "500/600₴",
       image: Fade,
     },
     {
       text1: "120-150 хв",
       text2: "Весільна зачіска з використанням аксесуарів.",
       text3: "Весільна зачіска",
-      price: "700₴",
+      price: "700/1000₴",
       image: Wedding, 
     },
   ];
@@ -88,10 +88,10 @@ export default function Services() {
     <div className="p-2 md:p-10">
       <div className="flex flex-col items-center" data-aos="fade-up">
         <p className="font-bold text-[38px]">Послуги перукаря</p>
-        <p>{activeCategory == 'female' && 'ціни залежать від довжини волося'}</p>
+        <p>{activeCategory == 'female' && 'ціни залежать від довжини волосся'}</p>
         {/* <p className="text-[22px]">Ми все робимо швидко та чітко</p> */}
       </div>
-      <div className="flex justify-center gap-4 mb-6 pt-4">
+      <div data-aos="fade-up" className="flex justify-center gap-4 mb-6 pt-4">
         <button
           className={`px-4 py-2 border-black border w-[100px] rounded-lg font-bold  ${
             activeCategory === "male" ? "bg-black border-white text-white duration-300" : "text-black"

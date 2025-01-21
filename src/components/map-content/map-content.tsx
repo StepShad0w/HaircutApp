@@ -27,7 +27,7 @@ const MapComponent = ({ mapStyles = [] }: { mapStyles: unknown }) => {
             >
                 <Marker
                     position={coordinates}
-                    title="26 Broadway, New York, NY 10004"
+                    title="вулиця М. Грушевського 12 (Перукарня)"
                 />
             </GoogleMap>
         </LoadScript>
