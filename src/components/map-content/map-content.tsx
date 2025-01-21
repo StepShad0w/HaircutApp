@@ -12,9 +12,10 @@ const coordinates = {
 };
 // // eslint-disable-next-line no-explicit-any
 const MapComponent = ({ mapStyles = [] }: { mapStyles: unknown }) => {
-    const googleMapsApiKey = 'AIzaSyBHVAHBqZIxgx3wnhTxmta-EUk0f76UYG4';
+    const googleMapsApiKey = process.env.REACT_APP_GOOGLE_MAPS_API_KEY;
+    
     return (
-        <LoadScript googleMapsApiKey={googleMapsApiKey}>
+        <LoadScript googleMapsApiKey={googleMapsApiKey || ''}>
             <GoogleMap
                 mapContainerStyle={mapContainerStyle}
                 center={coordinates}
