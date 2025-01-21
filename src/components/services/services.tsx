@@ -47,36 +47,29 @@ export default function Services() {
       text1: "60 хв",
       text2: "Укладка волосся. Включає миття та використання засобів для укладки.",
       text3: "Жіноча укладка",
-      price: "300₴",
+      price: "300/400/500₴",
       image: Ukladka,
-    },
+    }, 
     {
       text1: "120 хв",
       text2: "Фарбування волосся. Включає стрижку, миття та укладку.",
       text3: "Фарбування",
-      price: "700₴",
+      price: "700/800/1000₴",
       image: Pokraska,
     },
     {
-      text1: "120 хв",
+      text1: "60-80 хв",
       text2: "Тонування волосся. Включає стрижку, миття та укладку.",
       text3: "Тонування",
-      price: "700₴",
+      price: "500₴",
       image: Fade,
     },
     {
-      text1: "150 хв",
+      text1: "120-150 хв",
       text2: "Весільна зачіска з використанням аксесуарів.",
       text3: "Весільна зачіска",
-      price: "1500₴",
+      price: "700₴",
       image: Wedding, 
-    },
-    {
-      text1: "45 хв",
-      text2: "Швидке укладення для будь-якої події.",
-      text3: "Швидка укладка",
-      price: "200₴",
-      image: Crop, 
     },
   ];
   
@@ -95,6 +88,7 @@ export default function Services() {
     <div className="p-2 md:p-10">
       <div className="flex flex-col items-center" data-aos="fade-up">
         <p className="font-bold text-[38px]">Послуги перукаря</p>
+        <p>{activeCategory == 'female' && 'ціни залежать від довжини волося'}</p>
         {/* <p className="text-[22px]">Ми все робимо швидко та чітко</p> */}
       </div>
       <div className="flex justify-center gap-4 mb-6 pt-4">

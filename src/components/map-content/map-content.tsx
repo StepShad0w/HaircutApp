@@ -12,7 +12,7 @@ const coordinates = {
 };
 // // eslint-disable-next-line no-explicit-any
 const MapComponent = ({ mapStyles = [] }: { mapStyles: unknown }) => {
-    const googleMapsApiKey = 'AIzaSyC1Uic65jAQXOA40usOKLT_codIlDUU9VU';
+    const googleMapsApiKey = 'AIzaSyBHVAHBqZIxgx3wnhTxmta-EUk0f76UYG4';
     return (
         <LoadScript googleMapsApiKey={googleMapsApiKey}>
             <GoogleMap
