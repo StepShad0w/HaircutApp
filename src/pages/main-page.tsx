@@ -10,6 +10,7 @@ import { Fone1 } from '../images';
 import PictureSection from '../components/picture-section/picture-section';
 import ImageSection from '../components/image-section/image-section';
 import { mapStyles } from './constants';
+import RowUp from '../components/row-up/row-up';
 
 export default function MainPage() {
   return (
@@ -50,6 +51,7 @@ export default function MainPage() {
       <div id='contacts' className='d'>
         <Footer />
       </div>
+      <RowUp/>
     </div>
   );
 }

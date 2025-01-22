@@ -1,7 +1,6 @@
 import { useState } from "react";
 import PriceCard from "./price-card/price-card";
-import Crop from "../../images/ss.jpg";
-import { Canadka, Fade, Pokraska, SidePart, Ukladka, Undercut, Wedding } from '../../images';
+import { Canadka, Crop, Fade, Pokraska, SidePart, Tonyvanya, Ukladka, Undercut, Wedding } from '../../images';
 
 export default function Services() {
   const malePackages = [
@@ -62,7 +61,7 @@ export default function Services() {
       text2: "Тонування волосся. Включає стрижку, миття та укладку.",
       text3: "Тонування",
       price: "500/600₴",
-      image: Fade,
+      image: Tonyvanya,
     },
     {
       text1: "120-150 хв",

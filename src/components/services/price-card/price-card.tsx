@@ -44,7 +44,7 @@ const PriceCard: React.FC<PriceCardProps> = ({
           isActive ? 'max-h-[500px] opacity-100' : 'max-h-0 opacity-0'
         } overflow-hidden transition-all  duration-300 ease-in-out`}
       >
-        <img src={image} alt='s' className='h-[300px] rounded-lg   object-cover' />
+        <img src={image} alt='photo' className='h-[300px] rounded-lg   object-cover' />
       </div>
     </div>
   );
