@@ -5,7 +5,7 @@ import Fone4 from './Fone4.jpg';
 import Crop from './crop.jpg';
 import Fade from './fade.jpg';
 import Canadka from './canadka.jpg';
-import SidePart from './siderpart.jpg';
+import SidePart from './sidepart.jpg';
 import Undercut from './undercut.jpg';
 import Pokraska from './pokraska.jpg';
 import Ukladka from './ukladka.jpg';
