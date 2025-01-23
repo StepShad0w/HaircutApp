@@ -22,8 +22,8 @@ const PriceCard: React.FC<PriceCardProps> = ({
   return (
     <div
       onClick={onToggle}
-      // data-aos='fade-right'
-      className='border-b-2 relative items-center justify-between hover:scale-105 duration-300 flex flex-col gap-4 p-4 text-center cursor-pointer'
+      data-aos='fade-right'
+      className='border-b-2 relative items-center justify-between hover:!scale-105 duration-300 flex flex-col gap-4 p-4 text-center cursor-pointer drop-shadow-lg'
     >
       <div className='flex flex-wrap md:flex-nowrap justify-between w-full'>
         <div className='flex flex-col items-start min-w-[500px]'>
@@ -44,7 +44,10 @@ const PriceCard: React.FC<PriceCardProps> = ({
           isActive ? 'max-h-[500px] opacity-100' : 'max-h-0 opacity-0'
         } overflow-hidden transition-all  duration-300 ease-in-out`}
       >
-        <img src={image} alt='photo' className='h-[300px] rounded-lg   object-cover' />
+        <div className="h-[350px] w-[300px] bg-cover bg-center rounded-lg  shadow-inner" style={{backgroundImage:`url(${image})` }}>
+
+        </div>
+        {/* <img src={image} alt='photo' className='h-[300px] w-[300px] rounded-lg bg-top  object-cover' /> */}
       </div>
     </div>
   );
