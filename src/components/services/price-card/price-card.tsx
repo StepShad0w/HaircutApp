@@ -44,7 +44,7 @@ const PriceCard: React.FC<PriceCardProps> = ({
           isActive ? 'max-h-[500px] opacity-100' : 'max-h-0 opacity-0'
         } overflow-hidden transition-all  duration-300 ease-in-out`}
       >
-        <div className="h-[350px] w-[300px] bg-cover bg-center rounded-lg  shadow-inner" style={{backgroundImage:`url(${image})` }}>
+        <div className="h-[350px] w-[300px] bg-cover bg-top rounded-lg  shadow-inner" style={{backgroundImage:`url(${image})` }}>
 
         </div>
         {/* <img src={image} alt='photo' className='h-[300px] w-[300px] rounded-lg bg-top  object-cover' /> */}

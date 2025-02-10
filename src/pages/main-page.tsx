@@ -1,12 +1,10 @@
-import React from 'react';
-import myImage from '../images/phone.jpg';
+
 import Header from '../components/header/header';
 import MainInfo from '../components/main-info/main-info';
 import Services from '../components/services/services';
 import Footer from '../components/footer/footer';
 import MapComponent from '../components/map-content/map-content';
 import SliderComponent from '../components/swiper/swiper';
-import { Fone1 } from '../images';
 import PictureSection from '../components/picture-section/picture-section';
 import ImageSection from '../components/image-section/image-section';
 import { mapStyles } from './constants';
