@@ -38,11 +38,11 @@ export default function MainPage() {
       <div id='services' data-aos='fade-up' className='pt-20'>
         <Services />
       </div>
-      <div id='photos' className="d">
+      {/* <div id='photos' className="d">
 
       <PictureSection></PictureSection>
       <ImageSection/>
-      </div>
+      </div> */}
       <div id='location' data-aos='zoom-in'  className='pt-20 -mt-20 h-[500px] '>
         <MapComponent mapStyles={mapStyles}  />
       </div>
